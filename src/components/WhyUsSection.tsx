@@ -35,7 +35,7 @@ const features = [
 
 export default function WhyUsSection() {
   return (
-    <section id="why-us" className="relative py-24 bg-navy-900 overflow-hidden">
+    <section id="why-us" className="relative py-16 md:py-24 bg-navy-900 overflow-hidden">
       {/* Subtle background grid */}
       <div
         className="absolute inset-0 opacity-5"
@@ -48,9 +48,9 @@ export default function WhyUsSection() {
 
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <span className="text-3xl">💡</span>
-          <h2 className="text-4xl md:text-5xl font-black text-white mt-2 mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mt-2 mb-4">
             ليه تختار{" "}
             <span className="gradient-text">أستاذ أحمد؟</span>
           </h2>
@@ -86,7 +86,7 @@ export default function WhyUsSection() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-10 md:mt-16">
           <a
             href="#courses"
             className="inline-block px-10 py-4 bg-purple-gradient text-white font-bold rounded-full text-lg shadow-glow hover:shadow-glow-pink transition-all hover:scale-105"

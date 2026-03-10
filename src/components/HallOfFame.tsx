@@ -77,7 +77,7 @@ const students = [
 
 export default function HallOfFame() {
   return (
-    <section id="hall-of-fame" className="relative py-24 bg-navy-900 overflow-hidden">
+    <section id="hall-of-fame" className="relative py-16 md:py-24 bg-navy-900 overflow-hidden">
       {/* Background blobs */}
       <div className="absolute top-0 right-0 w-96 h-96 blob bg-gold opacity-5" />
       <div className="absolute bottom-0 left-0 w-80 h-80 blob bg-purple-primary opacity-10" />
@@ -86,17 +86,17 @@ export default function HallOfFame() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="text-4xl">💡</span>
-          <h2 className="text-4xl md:text-5xl font-black text-white mt-2 mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mt-2 mb-4">
             أوائل{" "}
             <span className="gradient-text-gold">الجمهورية</span>{" "}
             <span className="text-3xl">💡</span>
           </h2>
           <p className="text-gray-400 text-lg">أبطالنا الذين سطّروا اسمهم بالذهب 🏆</p>
-          <div className="w-24 h-1 bg-gradient-to-r from-gold to-gold-light mx-auto mt-6 rounded-full" />
+          <div className="w-24 h-1 bg-gradient-to-r from-gold to-gold-light mx-auto mt-5 rounded-full" />
         </div>
 
         {/* Top 3 podium */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mb-6">
           {students.slice(0, 3).map((s) => (
             <div
               key={s.id}

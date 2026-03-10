@@ -66,16 +66,16 @@ export default function CoursesSection() {
 
   return (
     <>
-      <section id="courses" className="relative py-24 bg-navy-950 overflow-hidden">
+      <section id="courses" className="relative py-16 md:py-24 bg-navy-950 overflow-hidden">
         {/* BG blobs */}
         <div className="absolute top-0 left-0 w-96 h-96 blob bg-purple-primary opacity-10" />
         <div className="absolute bottom-0 right-0 w-80 h-80 blob bg-pink-accent opacity-10" />
 
         <div className="container mx-auto px-6 relative z-10">
           {/* Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <span className="text-3xl">💡</span>
-            <h2 className="text-4xl md:text-5xl font-black text-white mt-2 mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mt-2 mb-4">
               احدث{" "}
               <span className="gradient-text">الباقات</span>{" "}
               <span className="text-3xl">💡</span>
